@@ -1,0 +1,23 @@
+{
+  "blocked_user_agents": [
+    "MaliciousBot",
+    "curl/7\\..*"
+  ],
+  "allowed_user_agents": [
+    "Mozilla/.*",
+    "PostmanRuntime/.*"
+  ],
+  "required_cookies": [
+    "session_id"
+  ],
+  "required_headers": {
+    "X-Requested-With": "XMLHttpRequest",
+    "X-CSRF-Token": "^[A-Za-z0-9-_]+\\.[A-Za-z0-9-_]+\\.[A-Za-z0-9-_]+$"
+  },
+  "ip_whitelist": [],
+  "ip_blacklist": [],
+  "jwt_secret": "your_very_strong_secret_here",
+  "jwt_required": false,
+  "csrf_tokens": {},
+  "rate_limits": {}
+}
